@@ -13,6 +13,19 @@
 
 <p align="center"><strong>✅ Tested on 20+ real phone leads! Fully functional & battle-tested.</strong></p>
 
+## 📚 Table of Contents
+- [Features](#️-features)
+- [Requirements](#️-requirements)
+- [Use Cases](#️-use-cases--where-this-ai-call-agent-shines)
+- [Why This Beats Manual Calling](#️-why-this-beats-manual-calling)
+- [Visual Overview (Screenshots)](#️-visual-overview-screenshots)
+- [FAQ](#️-faq--questions-youre-probably-asking-yourself)
+- [How It Works](#️-how-it-works--step-by-step-flow)
+- [Why This Works](#️-why-this-works)
+- [License](#️-license)
+- [About the Creator](#️-about-the-creator)
+- [Tags & SEO](#️-tags--search-keywords)
+
 ## ⚙️ Features
 
 - 📞 Calls leads automatically using AI voice assistant  
@@ -287,6 +300,12 @@ Created by **Tugui Dragoș**
 
 🌐 Website: [tuguidragos.com](https://tuguidragos.com)  
 📬 Email: contact@tuguidragos.com  
+
+---
+
+💬 Have questions? Want this workflow customized for your business?
+
+[→ Contact Me](mailto:contact@tuguidragos.com) • [→ Visit tuguidragos.com](https://tuguidragos.com)
 
 ---
 
