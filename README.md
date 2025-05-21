@@ -11,7 +11,7 @@
 
 <h1 align="center">🤖 n8n-ai-call-agent</h1>
 
-📦 Published as a verified workflow on n8n.io: [View it here](https://n8n.io/workflows/4026-automate-lead-calls-with-an-ai-agent-using-openai-twilio-and-vapi/)
+📦 Link Gumroad: [View it here](https://tuguidragos.gumroad.com/l/n8n-ai-call-agent)
 
 <p align="center"><strong>✅ Tested on 100+ real phone leads! Fully functional & battle-tested.</strong></p>
 
