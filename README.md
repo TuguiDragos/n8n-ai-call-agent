@@ -11,7 +11,15 @@
 
 <h1 align="center">🤖 n8n-ai-call-agent</h1>
 
-📦 Link Gumroad: [View it here](https://tuguidragos.gumroad.com/l/n8n-ai-call-agent)
+<p align="center">
+  <a href="https://tuguidragos.gumroad.com/l/n8n-ai-call-agent" target="_blank" style="text-decoration:none;">
+    <strong>🛒 View on Gumroad – Download the Workflow</strong>
+  </a>
+  <br/><br/>
+  <a href="https://youtu.be/xgDPP_hJ7ms" target="_blank" style="text-decoration:none;">
+    <strong>▶️ Watch the Demo Video on YouTube</strong>
+  </a>
+</p>
 
 <p align="center"><strong>✅ Tested on 100+ real phone leads! Fully functional & battle-tested.</strong></p>
 
