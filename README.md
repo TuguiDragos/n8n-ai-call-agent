@@ -9,7 +9,7 @@
   <a href="https://github.com/TuguiDragos/n8n-ai-call-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square" alt="License"></a>
 </p>
 
-<h1 align="center">🤖 n8n-ai-call-agent</h1>
+<h1 align="center">🤖 n8n-ai-call-agent | Updated May 2026</h1>
 
 <p align="center">
   <a href="https://tuguidragos.gumroad.com/l/n8n-ai-call-agent" target="_blank" style="text-decoration:none;">
@@ -21,7 +21,35 @@
   </a>
 </p>
 
-<p align="center"><strong>✅ Tested on 100+ real phone leads! Fully functional & battle-tested.</strong></p>
+<p align="center"><strong>Tested on 100+ real phone leads! Fully functional & battle-tested.</strong></p>
+<p align="center"><strong>MAY 2026 UPDATE - n8n v2 & Vapi Stability Release</strong></p>
+
+
+
+This update focuses on deep architectural fixes to ensure 100% compliance with the n8n v2 engine and to introduce enterprise-grade error handling for all Vapi HTTP connections.
+ 
+### ADDED:
+- **HTTP Error Handling & Auto-Retry:** Applied robust failure recovery logic to all 4 Vapi connection nodes (`Create Customer`, `Initiate Call`, `Get Call Data`, `Get Call Status`).
+  - Added `retryOnFail: true`
+  - Configured `maxTries: 3` with `waitBetweenTries: 2000` (2 seconds).
+  - Enforced `onError: continueRegularOutput` to prevent workflow hard-crashes during transient Vapi rate-limits or timeouts.
+ 
+### CHANGED & UPGRADED:
+- **n8n v2 Syntax Migration:** Refactored the `Filter Valid Leads` code node to replace the deprecated `items` array with the modern `$input.all().map(...)` standard.
+- **Deep Node Upgrades (14 Nodes Autofixed):**
+  - **Google Sheets nodes** upgraded from `typeVersion 4.5` to `4.7`
+  - **HTTP Request nodes** upgraded from `typeVersion 4.2` to `4.4`
+  - **Slack Notification nodes** upgraded from `typeVersion 2.3` to `2.4`
+  - **If Condition nodes** upgraded from `typeVersion 2.2` to `2.3`
+ 
+### FIXED:
+- **Critical Code Return Format Bug:** Fixed a strict typing error in `Check Final Status`, `Set Attempt Count`, and `Extract Email` code nodes. Previously, these nodes returned plain `{}` objects which triggered execution errors in n8n v2. They have now been corrected to return strictly formatted `[{json: { ... }}]` item arrays.
+ 
+### COMPATIBILITY:
+- **n8n**: v2.0+ (tested strictly on v2.x, May 2026)
+- **Vapi API**: current stable (api.vapi.ai)
+- **Node.js**: v24+ (n8n v2 default)
+
 
 
 ## 📚 Table of Contents
